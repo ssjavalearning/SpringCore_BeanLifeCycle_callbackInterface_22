@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+ 
+	<bean id="book" class="com.suraj.spring.beans.Book">
+		<property name="bookId" value="1001" />
+		<property name="bookName" value="Wings of Fire" />
+	</bean>
+</beans>
